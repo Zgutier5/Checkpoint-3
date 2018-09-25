@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Title from './title';
 
 class App extends Component {
   state = {
@@ -32,6 +33,7 @@ class App extends Component {
     return (
       <div> 
         <header>
+          <Title/>
           <h1>Customer Information<br/>
             <button className="btn btn-sm btn-danger">Call Data</button>
           </h1>
